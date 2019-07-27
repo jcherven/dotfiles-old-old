@@ -68,6 +68,11 @@ man() {
 # bash-completion brew package
   [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+# Start ssh-agent if on WSL
+  if grep -qE "(Microsoft|WSL)" /proc/version &> /dev/null ; then
+    eval $(ssh-agent)
+  fi
+
 # enable vi mode at the prompt
 set -o vi
 
