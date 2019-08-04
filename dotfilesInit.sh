@@ -76,6 +76,13 @@ UBUNTU_PACKAGES=(
   python-dev
 )
 
+NPM_GLOBAL_PACKAGES=(
+  eslint
+  prettier
+  lite-server
+  nodemon
+)
+
 sudo apt update --fix-missing
 
 # Install curl
@@ -129,6 +136,8 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 nvim --headless +PlugInstall +qa
 
 sudo apt upgrade -y
+
+yarn global add lite-server nodemon eslint prettier
 
 echo "dotfileInit.sh has completed."
 
