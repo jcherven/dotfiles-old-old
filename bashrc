@@ -80,5 +80,4 @@ set -o vi
 set completion-ignore-case on
 set show-all-if-ambiguous on
 
-
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
