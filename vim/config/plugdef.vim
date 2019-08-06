@@ -18,13 +18,8 @@ call plug#begin('~/.vim/plugged')
 " Helper for the base16 theme building architecture
 Plug 'chriskempson/base16-vim'
 
-" Lightline status bar
-"Plug 'itchyny/lightline.vim'
-"  " Disable the default mode indicator
-"  set noshowmode
-"  " Set up the custom Lightline configuration
-"  " SourceIfExists() is defined in the vimrc
-"  call SourceIfExists("~/dotfiles/vim/config/jums-lightline.vim")
+" Vim-aware pane movements in tmux... requires bindings in tmux.conf
+Plug 'christoomey/vim-tmux-navigator'
 
 " Customizable tab labels
 Plug 'mkitt/tabline.vim'
