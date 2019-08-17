@@ -1,3 +1,4 @@
+#tryna see something
 # Environment variable exports
   # Path exports
     # Export a X display variable if on WSL
