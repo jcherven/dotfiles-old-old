@@ -1,6 +1,6 @@
 {
     "git.ignoreMissingGitWarning": true,
-    "editor.fontFamily": "IBM Plex Mono",
+    "editor.fontFamily": "Iosevka Term",
     "editor.cursorStyle": "block",
     "editor.renderLineHighlight": "all",
     "editor.wordWrap": "on",
@@ -18,7 +18,7 @@
     "terminal.external.windowsExec": "cmd.exe",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "workbench.colorTheme": "Spacemacs - dark",
+    "workbench.colorTheme": "Jummiterm-Dark Theme",
     "vim.mouseSelectionGoesIntoVisualMode": true,
     "vim.showcmd": true,
     "vim.showmodename": true,
@@ -65,7 +65,6 @@
     "html.suggest.ionic": true,
     "javascript.suggest.completeFunctionCalls": true,
     "editor.parameterHints.enabled": false,
-    "terminal.integrated.fontFamily": "IBM Plex Mono",
     "terminal.integrated.shell.osx": "/bin/bash",
     "vscode-mysql.enableTelemetry": false,
     "zenMode.hideTabs": false,
@@ -108,7 +107,7 @@
     "workbench.iconTheme": "vs-nomo-dark",
     "markdown.preview.lineHeight": 1,
     "vim.statusBarColorControl": true,
-    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.fontSize": 14,
     "window.zoomLevel": -0.5,
     "rainbowString": {
         "extensions": [
@@ -121,5 +120,8 @@
     "workbench.settings.enableNaturalLanguageSearch": false,
     "update.enableWindowsBackgroundUpdates": false,
     "npm.fetchOnlinePackageInfo": false,
-    "backgroundCover.enabled": false
+    "backgroundCover.enabled": false,
+    "editor.fontSize": 14,
+    "workbench.fontAliasing": "auto",
+    "terminal.integrated.fontFamily": "Iosevka Term"
 }
