@@ -85,7 +85,7 @@ map <C-n> :NERDTreeToggle<CR>
 " `ysiw`, visually surround with `S`
 Plug 'tpope/vim-surround'
 " Comment selected lines; toggles on and off with gc
- Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary'
 " Highlights trailing whitespace, provides :FixWhitespace to delete it
 Plug 'bronson/vim-trailing-whitespace'
 " Easymotion; provides `<leader><leader>'
@@ -192,7 +192,7 @@ Plug 'prettier/vim-prettier', {
     " css|strict|ignore
     let g:prettier#config#html_whitespace_sensitivity = 'css'
 " Handlebars filetype recognition
-Plug 'mustache/vim-mustache-handlebars'
+" Plug 'mustache/vim-mustache-handlebars'
 " Javascript syntax highlighting provider
 Plug 'pangloss/vim-javascript'
 " javascript.jsx syntax highlighting and indenting (recommends pangloss/vim-javascript)

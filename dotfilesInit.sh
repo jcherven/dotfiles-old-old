@@ -139,5 +139,7 @@ sudo apt upgrade -y
 
 yarn global add lite-server nodemon eslint prettier
 
+popd
+
 echo "dotfileInit.sh has completed."
 

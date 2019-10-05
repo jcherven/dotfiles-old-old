@@ -1,3 +1,5 @@
+" vi:syntax=vim
+
 """"""""""""""""""""""""""""""""""""""""
 ""
 "" .vimrc
@@ -158,7 +160,7 @@ endif
 if has('gui_running')
     " Set font
     set guifont=Iosevka Term:h13
-    " Set transparancy on GUI window
+    " Set transparency on GUI window
     " set transparency:7
     " set blurradius:16
 endif
