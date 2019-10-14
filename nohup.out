@@ -1,0 +1,4 @@
+ConfigBase::load: config format is not valid
+[layouts,default,child0]: parent is invalid
+[layouts,default,child0]: type is invalid
+layout creation failed, creating a window ("'type'")

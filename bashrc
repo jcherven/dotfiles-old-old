@@ -36,12 +36,6 @@
     alias terminator='nohup terminator &'
   fi
 
-# Define colors via script instead of term theme with Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/"
-[ -n "$PS1" ] && \
-  [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
-    eval "$("$BASE16_SHELL/profile_helper.sh")"
-
 # Git-friendly command prompt
   source ~/.git-prompt.sh
   export GIT_PS1_SHOWDIRTYSTATE=1
@@ -69,9 +63,9 @@ man() {
   [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 # Start ssh-agent if on WSL
-  if grep -qE "(Microsoft|WSL)" /proc/version &> /dev/null ; then
-    eval $(ssh-agent)
-  fi
+#  if grep -qE "(Microsoft|WSL)" /proc/version &> /dev/null ; then
+#    eval $(ssh-agent)
+#  fi
 
 # enable vi mode at the prompt
 set -o vi
